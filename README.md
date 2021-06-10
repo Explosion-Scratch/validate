@@ -1,4 +1,4 @@
-# validate
+# Validate
 An easy to use validation library.
 
 ```html
