@@ -22,3 +22,5 @@ Also there are options:
 - `onSet` A callback function to run when a value attempted to be set in the object.
 - `transformFunction` A function to run on and values when attempting to be set. E.g. to convert strings to numbers you could set this to `(i) => i.toString()`
 - `defaultValue` What to return if the property doesn't exist when getting.
+- `autoConvert` Automatically convert values to their intended format (if possible).
+- `startingObject` The object to start out with.
